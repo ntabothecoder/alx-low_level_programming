@@ -1,4 +1,5 @@
- * main: Prints the alphabet in lowercase & uppercase
+#include <stdio.h> 
+* main: Prints the alphabet in lowercase & uppercase
  *
  * DEscription: This program prints the alphabet 
  * in lowercase and then uppercase followed by
