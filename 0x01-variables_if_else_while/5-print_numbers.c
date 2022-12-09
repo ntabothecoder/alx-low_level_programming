@@ -1,23 +1,45 @@
-
 #include <stdio.h>
 
- /**
-  *
-  *  * main - Prints all single digit numbers of base 10 starting from 0.
-  *
-  *   *
-  *
-  *    * Return: Always 0.
-  *
-  *     */
+#include <stdlib.h>
 
- int main(void)
+ #include <time.h>
 
-{
-	int num;
-		for (num = 0; num < 10; num++)
-			printf("%d", num);
-			printf("\n");											
+
+
+/**
+ *
+ *  *this program checks whether a random number is negative or positive
+ *
+ *   *
+ *
+ *    *
+ *
+ *     */
+
+int main(void) {
+
+	int n;
+
+	srand(time(0));
+
+	n = rand() - RAND_MAX / 2;
+
+	if (n > 0) {
+	
+			printf("%d is positive \n", n);
+	
+		}
+
+	else if (n < 0) {
+	
+			printf("%d is negative \n", n);
+	
+		}
+
+	else
+
+		printf("%d is zero \n", n);
+
 	return (0);
 
-}
+}}
