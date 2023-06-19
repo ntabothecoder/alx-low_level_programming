@@ -4,10 +4,10 @@
  *
  * Description: Using the main function
  * this program print :Programming is positive, negative or zero
- * return: 0
+ * Returns: Always 0
  *
  */
-int main(void) 
+int main(void)
 {
 	char ch;
 
@@ -16,5 +16,5 @@ int main(void)
 		putchar(ch);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
