@@ -4,7 +4,8 @@
  *
  * Description: Using the main function
  * this program print :Programming is positive, negative or zero
- * Returns: Always 0
+ *
+ * Main function returns: Always 0
  *
  */
 int main(void)
