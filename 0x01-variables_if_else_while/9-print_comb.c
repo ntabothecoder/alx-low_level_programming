@@ -9,7 +9,8 @@
 int main(void)
 {
 	int x;
-	for (x = 48; x<= 57; x++)
+
+	for (x = 48; x <= 57; x++)
 	{
 		putchar(x);
 		if (x != 57)
@@ -18,6 +19,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	putchar('\n');
-	return(0);
+	putchar ('\n');
+	return (0);
 }
