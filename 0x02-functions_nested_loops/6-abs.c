@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * _abs - Computes the absolute value of n
- * @c: The arguement fo the function
+ *
+ *@c: The arguement fo the function
  *
  * Return: 0
  */
@@ -12,6 +13,6 @@ int _abs(int c)
 	{
 		return (0);
 	}
-	else 
+	else
 		return (c * -1);
 }
