@@ -9,13 +9,13 @@
 
 void print_square(int size)
 {
-	int inc1, inc2;
+	int row, column;
 
 	if (size > 0)
 	{
-		for (inc1 = 0; inc1 < size; incl++)
+		for (row = 0; row < size; row++)
 		{
-			for (inc2 = 0; inc2 < (size - 1); inc2++)
+			for (column = 0; column < size; column++)
 			{
 				_putchar('#');
 			}
