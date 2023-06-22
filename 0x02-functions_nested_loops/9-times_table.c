@@ -4,9 +4,9 @@
  * times_table - A function that print the 9 times table
  *
  */
-void time_table(void)
+void timeis_table(void)
 {
-	int num. mult, prod;
+	int num, mult, prod;
 
 	for (num = 0; num <= 9; num++)
 	{
