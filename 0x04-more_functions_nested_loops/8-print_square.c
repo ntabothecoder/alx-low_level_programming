@@ -1,25 +1,21 @@
-#include <stdio.h>
-#include "main"
+#include "main.h"
 
 /**
- * print_square - prints a square
- * @size: parameter
- * Return: Nothing
+ * print_square - prints a square, followed by a new line;
+ * @size: size of the square
  */
-
 void print_square(int size)
 {
-
 	if (size <= 0)
 	{
 		_putchar('\n');
-	}else
+	} else
 	{
-		int row, column;
-		
-		for (row = 0; row < size; row++)
+		int i, j;
+
+		for (i = 0; i < size; i++)
 		{
-			for (column = 0; column < size; column++)
+			for (j = 0; j < size; j++)
 			{
 				_putchar('#');
 			}
@@ -27,3 +23,4 @@ void print_square(int size)
 		}
 	}
 }
+
