@@ -3,15 +3,14 @@
 
 /**
  * main - prints the programs name
- * @argc - the number of arguments
- * @argv - argument value
+ * @argc : the number of arguments
+ * @argv : argument value
  *
- * Return - 0 (success)
+ * Return: 0 on success, and non zero if not successfull
  */
- int main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
- 	(void)argv;
-	printf("%d\n",argc - 1);
-	
-	return(0);
+	printf("%S\n", argv[0]);
+
+	return (0);
 }
