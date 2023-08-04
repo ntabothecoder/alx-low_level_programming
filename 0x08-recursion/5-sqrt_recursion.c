@@ -22,7 +22,7 @@ int _sqrt_recursion(int n)
  *
  * Returns - the natural sqrt
  */
-int real_sqrt_recursion(int n, int i)
+int real_sqrt_recursion(int n, int j)
 {
 	if (j * j > n)
 		return(-1);
