@@ -1,5 +1,6 @@
 #include "main.h"
 
+int is_prime_helper(int n, int divisor);
 /**
  * is_prime_number - returns 1 if input integer is a prime, 0 if otherwise
  * @n - input integer
