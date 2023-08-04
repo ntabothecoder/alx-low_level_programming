@@ -2,6 +2,7 @@
 #define  MAIN_H
 
 int is_palindrome(char *s);
+int _putchar(char c);
 int wildcmp(char *s1, char *s2);
 int is_prime_number(int n);
 int _sqrt_recursion(int n);
