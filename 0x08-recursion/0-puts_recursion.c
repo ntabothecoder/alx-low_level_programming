@@ -1,4 +1,4 @@
-#include "main.h"0-
+#include "main.h"
 
 /**
  * _puts_recursion - prints a string
