@@ -26,7 +26,7 @@ int real_sqrt_recursion(int n, int j)
 {
 	if (j * j > n)
 		return(-1);
-	if (j * i == n)
+	if (j * j == n)
 		return(j);
 	return (real_sqrt_recursion(n, j +1));
 }
