@@ -11,7 +11,7 @@
  * Returns : ptr
  */
 
-void *malloc_checked(int b)
+void *malloc_checked(unsigned int b)
 {
 	void *ptr = malloc(b);
 
